@@ -16,6 +16,7 @@
       <a href="#platform">2024 PLATFORM</a>
       <a href="#changes">2025 CHANGES</a>
       <a href="#campaign2026">2026 CAMPAIGN</a>
+      <a href="#voting">VOTING RECORD</a>
       <a href="#compare">COMPARE</a>
       <a href="#sources">SOURCES</a>
     </nav>
@@ -90,8 +91,61 @@
     </div>
   </section>
 
+
+  <section id="voting" class="section voting">
+    <div class="sectionHead"><span>04</span><div><p>Official Texas House records</p><h2>VOTING RECORD</h2></div></div>
+    <p class="lede">Search and filter James Talarico’s recorded Texas House votes. This section loads from <code>data/talarico-votes.json</code> so the voting database can grow without rebuilding the page.</p>
+
+    <div class="voteStats" aria-live="polite">
+      <div><span id="vote-total">0</span><small>LOADED RECORDS</small></div>
+      <div><span id="vote-yes">0</span><small>YES</small></div>
+      <div><span id="vote-no">0</span><small>NO</small></div>
+      <div><span id="vote-absent">0</span><small>ABSENT / EXCUSED</small></div>
+    </div>
+
+    <div class="voteControls">
+      <label class="voteSearch">
+        <span>Search</span>
+        <input id="vote-search" type="search" placeholder="Bill number, topic, description..." autocomplete="off">
+      </label>
+      <label>
+        <span>Session</span>
+        <select id="vote-session"><option value="">All sessions</option></select>
+      </label>
+      <label>
+        <span>Issue</span>
+        <select id="vote-category"><option value="">All issues</option></select>
+      </label>
+      <label>
+        <span>Vote</span>
+        <select id="vote-value">
+          <option value="">All votes</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="present_not_voting">Present, not voting</option>
+          <option value="absent">Absent</option>
+          <option value="excused">Excused</option>
+          <option value="paired">Paired</option>
+          <option value="no_individual_record">No individual record</option>
+          <option value="unknown">Unknown</option>
+        </select>
+      </label>
+      <label class="keyVoteToggle">
+        <input id="vote-key-only" type="checkbox">
+        <span>Key votes only</span>
+      </label>
+    </div>
+
+    <div id="vote-status" class="voteStatus">Loading voting-data file…</div>
+    <div id="vote-results" class="voteResults" aria-live="polite"></div>
+
+    <div class="note voteRule">
+      <strong>Evidence rule:</strong> this project does not infer a vote from party affiliation, bill sponsorship, attendance, or a voice vote. A member vote is displayed only when the source record identifies an individual vote. Each populated record should link to Texas Legislature Online.
+    </div>
+  </section>
+
   <section id="compare" class="section compare">
-    <div class="sectionHead"><span>04</span><div><p>Then → transition → now</p><h2>COMPARE</h2></div></div>
+    <div class="sectionHead"><span>05</span><div><p>Then → transition → now</p><h2>COMPARE</h2></div></div>
     <div class="tableWrap"><table>
       <thead><tr><th>Issue</th><th>2024 Platform</th><th>2025 Senate Launch</th><th>2026 Campaign</th></tr></thead>
       <tbody>
@@ -109,7 +163,7 @@
   </section>
 
   <section id="sources" class="section sources">
-    <div class="sectionHead"><span>05</span><div><p>Primary evidence</p><h2>SOURCES</h2></div></div>
+    <div class="sectionHead"><span>06</span><div><p>Primary evidence</p><h2>SOURCES</h2></div></div>
     <div class="sourceList">
       <a target="_blank" rel="noopener" href="https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/"><strong>March 4, 2024</strong><span>Archived state-representative homepage with detailed Issues platform</span></a>
       <a target="_blank" rel="noopener" href="https://web.archive.org/web/20250113112525/https://www.jamestalarico.com/"><strong>January 13, 2025</strong><span>Archived campaign homepage retaining the detailed Issues platform</span></a>
