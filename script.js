@@ -1,7 +1,7 @@
 const translations = {
   en: {
     skip:"Skip to main content", disclaimer:"ARCHIVAL / DOCUMENTARY PROJECT · NOT AFFILIATED WITH OR AUTHORIZED BY JAMES TALARICO OR TALARICO FOR TEXAS",
-    brand:"THEN & NOW",menu:"Menu",nav2024:"2024 PLATFORM",nav2025:"2025 CHANGES",nav2026:"2026 CAMPAIGN",navVoting:"VOTING RECORD",navCompare:"COMPARE",navSources:"SOURCES",
+    brand:"THEN & NOW",menu:"Menu",nav2024:"2024 PLATFORM",nav2025:"2025 CHANGES",nav2026:"2026 CAMPAIGN",navVoting:"VOTING RECORD",navScorecards:"SCORECARDS",navCompare:"COMPARE",navSources:"SOURCES",
     internetRemembers:"THE INTERNET REMEMBERS",heroName:"James Talarico:",heroThenNow:"Then & Now",heroDeck:"A documented comparison of how his campaign website presented his politics in 2024, during the 2025 Senate transition, and on the 2026 campaign site.",compareRecord:"COMPARE THE RECORD",
     waybackLive:"WAYBACK + LIVE SITE",followTimeline:"Follow the timeline.",timelineText:"Archived versions of <strong>jamestalarico.com</strong> preserve a detailed policy platform from 2024 and early 2025. By August 2025, that detailed Issues section was no longer displayed on the recovered homepage. In September 2025 the site relaunched for the U.S. Senate campaign. By 2026, a detailed Issues section had returned with a statewide and federal policy agenda.",
     date2024:"March 4, 2024",platformTitle:"2024 PLATFORM",platformLede:"The archived state-representative campaign site openly used the label <strong>“Bold, Progressive Legislation”</strong> and carried a long issue-by-issue platform.",
@@ -38,11 +38,12 @@ const translations = {
     showing:"Showing",of:"of",verifiedRecords:"verified records in the current dataset",noMatching:"No matching votes.",clearFilters:"Try clearing one or more filters.",officialRecord:"VIEW OFFICIAL RECORD →",action:"Action:",result:"RESULT",keyVote:"KEY VOTE",record:"Record",recordedVote:"Recorded House vote",
     yesVote:"YES",noVote:"NO",presentVote:"PRESENT, NOT VOTING",absentVote:"ABSENT",excusedVote:"EXCUSED",pairedVote:"PAIRED",noRecordVote:"NO INDIVIDUAL RECORD",unknownVote:"UNKNOWN",
     loadError:"Voting-data file could not be loaded.",couldNotLoad:"Could not load data/talarico-votes.json.",fileCheck:"Confirm the file is committed at that exact path and that the filename capitalization matches.",
+    secondaryResearch:"Secondary research index",scorecardsTitle:"LEGISLATIVE SCORECARDS",scorecardsLede:"Ballotpedia’s saved profile identified legislative scorecards from organizations across the political spectrum. We use those scorecards to find votes worth checking, but we do not treat an advocacy scorecard as the official vote record.",sourceHierarchy:"Source hierarchy:",scorecardRuleText:"Scorecards are secondary leads. Texas Legislature Online and certified House Journals control the individual vote shown in the Voting Record.",scorecardsIndexed:"SCORECARDS INDEXED",yearsCovered:"YEARS WITH SCORECARDS",crosschecksVerified:"OFFICIAL CROSS-CHECKS",whyPrimaryTitle:"Why the official record controls",whyPrimaryText:"A secondary scorecard can use its own methodology. In one 2025 cross-check, Sierra Club’s scorecard displayed Talarico as “N” on HB 5246, while the certified Texas House Journal lists Talarico among the Yeas. Sierra’s methodology says it may change a vote in its scorecard based on a member’s stated intent. This project therefore publishes the certified House Journal vote in the Voting Record.",viewScorecard:"VIEW SCORECARD →",viewOfficialJournal:"VIEW OFFICIAL JOURNAL →",ballotpediaReuseNote:"Ballotpedia is used here as a secondary research index. This site does not republish Ballotpedia’s saved HTML, design, scripts, images, or page assets.",methodScorecardsTitle:"Secondary scorecards",methodScorecardsText:"Ballotpedia and advocacy scorecards can identify votes for investigation, but the public Voting Record is not updated until the individual vote is confirmed against an official Texas source.",ballotpediaSource:"Ballotpedia profile",ballotpediaSourceText:"Secondary research index used to locate legislative scorecards and other source leads",club2019Source:"2019 Club for Growth Foundation scorecard",club2019SourceText:"Secondary scorecard that selected 30 Texas House economic-policy votes for review",sierra2025Source:"2025 Sierra Club Texas scorecard",sierra2025SourceText:"Secondary environmental scorecard used as a lead for official vote verification",scorecardsFound:"scorecards found",openScorecard:"OPEN SCORECARD →",researchLoadError:"Research index could not be loaded.",navMethod:"METHODOLOGY",archiveRule:"NO SPIN. NO GUESSES ABOUT MOTIVE. PRIMARY SOURCES FIRST.",viewArchivedSource:"VIEW ARCHIVED SOURCE →",evidenceMar:"MAR 4, 2024 SOURCE →",evidenceJan:"JAN 13, 2025 SOURCE →",evidenceAug:"AUG 7, 2025 SOURCE →",evidenceSep:"SEP 9, 2025 SOURCE →",launchCapture:"ARCHIVED SENATE LAUNCH CAPTURE",openCapture:"OPEN WAYBACK CAPTURE →",checked2026:"LAST CHECKED: AUG. 15, 2026",issueTrailsTitle:"ISSUE TRAILS",issueTrailsText:"Read the same issue across 2024, the 2025 launch, and the 2026 campaign. Each trail includes direct source links.",howProjectWorks:"How this project works",methodTitle:"METHODOLOGY",methodLede:"This project compares public campaign materials with official legislative records. The goal is a traceable record that readers can audit for themselves.",methodArchiveTitle:"Archived campaign statements",methodArchiveText:"Historical campaign claims are tied to dated Internet Archive captures whenever a capture is available.",methodCurrentTitle:"Current positions",methodCurrentText:"Current campaign positions link to the candidate's live campaign pages and include a date last checked.",methodVotesTitle:"Legislative votes",methodVotesText:"Committee votes and floor votes are labeled separately. Individual votes are not inferred from party, sponsorship, attendance, or voice votes.",methodChangeTitle:"Website changes",methodChangeText:"A position disappearing from a particular webpage is documented as a change in presentation, not automatically as a policy reversal.",correctionsTitle:"CORRECTIONS & SOURCE CHALLENGES",correctionsText:"If you identify an error, send the primary source that contradicts the entry. Documented corrections should be made against the evidence, not political preference.",contactPublisher:"CONTACT THE PUBLISHER →",texasLegislature:"Texas Legislature Online",texasLegislatureText:"Official legislative records used for voting entries",correctionsLink:"Methodology & Corrections",committeeVote:"COMMITTEE VOTE",floorVote:"HOUSE FLOOR VOTE",otherVote:"LEGISLATIVE RECORD",verifiedBadge:"VERIFIED",billHistory:"BILL HISTORY →",
     menuOpen:"Close menu",menuClosed:"Open menu"
   },
   es: {
     skip:"Saltar al contenido principal", disclaimer:"PROYECTO DOCUMENTAL / DE ARCHIVO · NO AFILIADO NI AUTORIZADO POR JAMES TALARICO O TALARICO FOR TEXAS",
-    brand:"ANTES Y AHORA",menu:"Menú",nav2024:"PLATAFORMA 2024",nav2025:"CAMBIOS 2025",nav2026:"CAMPAÑA 2026",navVoting:"RÉCORD DE VOTACIÓN",navCompare:"COMPARAR",navSources:"FUENTES",
+    brand:"ANTES Y AHORA",menu:"Menú",nav2024:"PLATAFORMA 2024",nav2025:"CAMBIOS 2025",nav2026:"CAMPAÑA 2026",navVoting:"RÉCORD DE VOTACIÓN",navScorecards:"PUNTUACIONES",navCompare:"COMPARAR",navSources:"FUENTES",
     internetRemembers:"INTERNET NO OLVIDA",heroName:"James Talarico:",heroThenNow:"Antes y Ahora",heroDeck:"Una comparación documentada de cómo su sitio de campaña presentó sus posiciones políticas en 2024, durante la transición a la campaña para el Senado en 2025 y en su campaña de 2026.",compareRecord:"COMPARAR EL RÉCORD",
     waybackLive:"WAYBACK + SITIO ACTUAL",followTimeline:"Sigue la cronología.",timelineText:"Las versiones archivadas de <strong>jamestalarico.com</strong> conservan una plataforma política detallada de 2024 y principios de 2025. Para agosto de 2025, esa sección detallada de temas ya no aparecía en la página principal recuperada. En septiembre de 2025, el sitio se relanzó para la campaña al Senado de EE. UU. Para 2026, había regresado una sección detallada de temas con una agenda estatal y federal.",
     date2024:"4 de marzo de 2024",platformTitle:"PLATAFORMA 2024",platformLede:"El sitio archivado de su campaña para representante estatal utilizaba abiertamente la etiqueta <strong>“Legislación progresista y audaz”</strong> y contenía una amplia plataforma tema por tema.",
@@ -79,6 +80,7 @@ const translations = {
     showing:"Mostrando",of:"de",verifiedRecords:"registros verificados en el conjunto de datos actual",noMatching:"No hay votos que coincidan.",clearFilters:"Prueba eliminando uno o más filtros.",officialRecord:"VER REGISTRO OFICIAL →",action:"Acción:",result:"RESULTADO",keyVote:"VOTO CLAVE",record:"Registro",recordedVote:"Voto registrado de la Cámara",
     yesVote:"SÍ",noVote:"NO",presentVote:"PRESENTE, SIN VOTAR",absentVote:"AUSENTE",excusedVote:"EXCUSADO",pairedVote:"EMPAREJADO",noRecordVote:"SIN REGISTRO INDIVIDUAL",unknownVote:"DESCONOCIDO",
     loadError:"No se pudo cargar el archivo de votaciones.",couldNotLoad:"No se pudo cargar data/talarico-votes.json.",fileCheck:"Confirma que el archivo esté guardado exactamente en esa ruta y que coincidan mayúsculas y minúsculas.",
+    secondaryResearch:"Índice de investigación secundaria",scorecardsTitle:"PUNTUACIONES LEGISLATIVAS",scorecardsLede:"El perfil guardado de Ballotpedia identificó puntuaciones legislativas de organizaciones de distintas corrientes políticas. Usamos esas puntuaciones para localizar votos que vale la pena verificar, pero no tratamos una puntuación de un grupo de interés como el registro oficial del voto.",sourceHierarchy:"Jerarquía de fuentes:",scorecardRuleText:"Las puntuaciones son pistas secundarias. Texas Legislature Online y los Diarios certificados de la Cámara determinan el voto individual que aparece en el Récord de Votación.",scorecardsIndexed:"PUNTUACIONES INDEXADAS",yearsCovered:"AÑOS CON PUNTUACIONES",crosschecksVerified:"VERIFICACIONES OFICIALES",whyPrimaryTitle:"Por qué manda el registro oficial",whyPrimaryText:"Una puntuación secundaria puede usar su propia metodología. En una verificación de 2025, la puntuación de Sierra Club mostró a Talarico como “N” en HB 5246, mientras que el Diario certificado de la Cámara de Texas lo incluye entre los votos a favor. La metodología de Sierra indica que puede cambiar un voto en su puntuación según la intención declarada por un legislador. Por eso este proyecto publica el voto del Diario certificado en el Récord de Votación.",viewScorecard:"VER PUNTUACIÓN →",viewOfficialJournal:"VER DIARIO OFICIAL →",ballotpediaReuseNote:"Ballotpedia se usa aquí como índice secundario de investigación. Este sitio no republica el HTML guardado de Ballotpedia, su diseño, scripts, imágenes ni recursos de página.",methodScorecardsTitle:"Puntuaciones secundarias",methodScorecardsText:"Ballotpedia y las puntuaciones de grupos pueden identificar votos para investigar, pero el Récord de Votación público no se actualiza hasta confirmar el voto individual con una fuente oficial de Texas.",ballotpediaSource:"Perfil de Ballotpedia",ballotpediaSourceText:"Índice secundario usado para localizar puntuaciones legislativas y otras pistas de fuentes",club2019Source:"Puntuación 2019 de Club for Growth Foundation",club2019SourceText:"Puntuación secundaria que seleccionó 30 votos de política económica de la Cámara de Texas para revisión",sierra2025Source:"Puntuación 2025 de Sierra Club Texas",sierra2025SourceText:"Puntuación ambiental secundaria usada como pista para verificar votos oficiales",scorecardsFound:"puntuaciones encontradas",openScorecard:"ABRIR PUNTUACIÓN →",researchLoadError:"No se pudo cargar el índice de investigación.",navMethod:"METODOLOGÍA",archiveRule:"SIN SPIN. SIN ADIVINAR MOTIVOS. PRIMERO LAS FUENTES PRIMARIAS.",viewArchivedSource:"VER FUENTE ARCHIVADA →",evidenceMar:"FUENTE 4 MAR. 2024 →",evidenceJan:"FUENTE 13 ENE. 2025 →",evidenceAug:"FUENTE 7 AGO. 2025 →",evidenceSep:"FUENTE 9 SEP. 2025 →",launchCapture:"CAPTURA ARCHIVADA DEL LANZAMIENTO AL SENADO",openCapture:"ABRIR CAPTURA DE WAYBACK →",checked2026:"ÚLTIMA REVISIÓN: 15 AGO. 2026",issueTrailsTitle:"TRAYECTORIA POR TEMA",issueTrailsText:"Lee el mismo tema en 2024, el lanzamiento de 2025 y la campaña de 2026. Cada trayectoria incluye enlaces directos a las fuentes.",howProjectWorks:"Cómo funciona este proyecto",methodTitle:"METODOLOGÍA",methodLede:"Este proyecto compara materiales públicos de campaña con registros legislativos oficiales. La meta es un historial rastreable que los lectores puedan auditar por sí mismos.",methodArchiveTitle:"Declaraciones archivadas de campaña",methodArchiveText:"Las afirmaciones históricas de campaña se vinculan a capturas fechadas de Internet Archive cuando hay una captura disponible.",methodCurrentTitle:"Posiciones actuales",methodCurrentText:"Las posiciones actuales enlazan a las páginas vigentes de la campaña e incluyen la fecha de la última revisión.",methodVotesTitle:"Votos legislativos",methodVotesText:"Los votos de comité y del pleno se identifican por separado. No se infieren votos individuales por partido, patrocinio, asistencia o votos de voz.",methodChangeTitle:"Cambios del sitio web",methodChangeText:"Que una posición desaparezca de una página concreta se documenta como un cambio de presentación, no automáticamente como un cambio de política.",correctionsTitle:"CORRECCIONES Y RETOS DE FUENTE",correctionsText:"Si identificas un error, envía la fuente primaria que contradiga la entrada. Las correcciones documentadas deben hacerse con base en la evidencia, no en preferencias políticas.",contactPublisher:"CONTACTAR AL EDITOR →",texasLegislature:"Texas Legislature Online",texasLegislatureText:"Registros legislativos oficiales usados para las entradas de votación",correctionsLink:"Metodología y Correcciones",committeeVote:"VOTO DE COMITÉ",floorVote:"VOTO DEL PLENO",otherVote:"REGISTRO LEGISLATIVO",verifiedBadge:"VERIFICADO",billHistory:"HISTORIAL DEL PROYECTO →",
     menuOpen:"Cerrar menú",menuClosed:"Abrir menú"
   }
 };
@@ -115,6 +117,26 @@ const compareRows = {
     ["Votación y democracia","Apoyó registro electoral en línea, más votación anticipada y acceso a centros de votación, y dijo que lideró una ruptura de quórum.","El lanzamiento se desplazó hacia corrupción, donantes multimillonarios y devolver poder político a los trabajadores.","La reforma anticorrupción y democrática ahora es un tema federal central, con restricciones al financiamiento de campañas, propuestas contra el gerrymandering y protecciones al acceso al voto."],
     ["Vivienda / costo de vida","Calificó la vivienda como derecho humano y apoyó iniciativas de vivienda asequible.","La política detallada de vivienda no se destacó en la página principal recuperada del lanzamiento.","Propone límites a la especulación corporativa en vivienda, ampliar el crédito fiscal para vivienda de bajos ingresos, construir más y reducir costos de seguros y vivienda."],
     ["Página de temas","Amplia plataforma detallada de temas.","La plataforma detallada estuvo ausente de la página principal recuperada del lanzamiento.","La sección completa de Temas regresó y se amplió para una campaña federal."]
+  ]
+};
+
+
+const issueTrails = {
+  en: [
+    {title:"Immigration",y2024:"DREAMers; repeal SB 4; opposed state border-wall spending.",y2025:"Not featured in the recovered Sept. 9 launch homepage text.",y2026:"Secure the border; stop illegal immigration; legal pathways; prioritized criminal removals.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/immigration-border-security/"},
+    {title:"Health Care",y2024:"Health care as a human right; Medicaid expansion/public option; guaranteed-care goal.",y2025:"Not featured in the recovered Sept. 9 launch homepage text.",y2026:"Health care again described as a human right; guaranteed care and Medicare buy-in.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/health-care/"},
+    {title:"Abortion",y2024:"Restore Roe-era protections and protect Planned Parenthood.",y2025:"Not featured in the recovered Sept. 9 launch homepage text.",y2026:"Codify Roe v. Wade and protect contraception and IVF.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/freedom-family-faith/"},
+    {title:"Public Safety / Guns",y2024:"Universal background checks and an assault-weapons sales ban.",y2025:"Detailed gun policy not featured in the recovered launch homepage text.",y2026:"Background checks, secure storage, and raising the purchase age for certain semi-automatic rifles.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/public-safety-justice/"},
+    {title:"Religion",y2024:"Opposed Ten Commandments mandates and replacing school counselors with chaplains.",y2025:"The launch highlighted his identity as a Presbyterian seminarian.",y2026:"Explicit separation-of-church-and-state plank while continuing to foreground Christian faith.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/freedom-family-faith/"},
+    {title:"Voting & Democracy",y2024:"Online voter registration, expanded early voting and polling access; said he led a quorum break.",y2025:"Launch messaging centered on corruption, billionaire donors, and political power for working people.",y2026:"Anti-corruption and democracy reform are a flagship federal theme.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/corruption-democracy/"}
+  ],
+  es: [
+    {title:"Inmigración",y2024:"DREAMers; derogar SB 4; oposición al gasto estatal para un muro fronterizo.",y2025:"No destacado en el texto recuperado de la página principal del lanzamiento del 9 de septiembre.",y2026:"Asegurar la frontera; detener la inmigración ilegal; vías legales; prioridad a expulsiones de criminales.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/immigration-border-security/"},
+    {title:"Salud",y2024:"La salud como derecho humano; expansión de Medicaid/opción pública; meta de atención garantizada.",y2025:"No destacado en el texto recuperado del lanzamiento del 9 de septiembre.",y2026:"La salud vuelve a describirse como derecho humano; atención garantizada y acceso a Medicare.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/health-care/"},
+    {title:"Aborto",y2024:"Restaurar protecciones de la era Roe y proteger Planned Parenthood.",y2025:"No destacado en el texto recuperado del lanzamiento del 9 de septiembre.",y2026:"Codificar Roe v. Wade y proteger anticoncepción y fertilización in vitro.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/freedom-family-faith/"},
+    {title:"Seguridad pública / armas",y2024:"Verificaciones universales de antecedentes y prohibición de venta de armas de asalto.",y2025:"La política detallada de armas no se destacó en el texto recuperado del lanzamiento.",y2026:"Verificaciones de antecedentes, almacenamiento seguro y elevar la edad de compra para ciertos rifles semiautomáticos.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/public-safety-justice/"},
+    {title:"Religión",y2024:"Se opuso a mandatos de los Diez Mandamientos y a sustituir consejeros escolares por capellanes.",y2025:"El lanzamiento destacó su identidad como seminarista presbiteriano.",y2026:"Planteamiento explícito de separación entre iglesia y Estado, mientras continúa destacando su fe cristiana.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/freedom-family-faith/"},
+    {title:"Votación y democracia",y2024:"Registro electoral en línea, más votación anticipada y acceso a centros; dijo que lideró una ruptura de quórum.",y2025:"El lanzamiento se centró en corrupción, donantes multimillonarios y poder político para los trabajadores.",y2026:"La reforma anticorrupción y democrática es ahora un tema federal central.",src2024:"https://web.archive.org/web/20240304015839/https://www.jamestalarico.com/",src2025:"https://web.archive.org/web/20250909104624/https://www.jamestalarico.com/",src2026:"https://jamestalarico.com/issue/corruption-democracy/"}
   ]
 };
 
@@ -193,6 +215,23 @@ function translateStatic(){
   });
   menuToggle?.setAttribute("aria-label",t("menuClosed"));
   renderCompare();
+  renderIssueTrails();
+}
+
+
+function renderIssueTrails(){
+  const container=document.getElementById("issue-trails");
+  if(!container)return;
+  const srcLabel=currentLang==="es"?"FUENTE":"SOURCE";
+  container.innerHTML=issueTrails[currentLang].map(item=>`
+    <article class="trail-card">
+      <h3>${escapeHtml(item.title)}</h3>
+      <div class="trail-stage"><span>2024</span><p>${escapeHtml(item.y2024)}</p><a href="${escapeHtml(item.src2024)}" target="_blank" rel="noopener">2024 ${srcLabel} →</a></div>
+      <div class="trail-line" aria-hidden="true"></div>
+      <div class="trail-stage"><span>2025</span><p>${escapeHtml(item.y2025)}</p><a href="${escapeHtml(item.src2025)}" target="_blank" rel="noopener">2025 ${srcLabel} →</a></div>
+      <div class="trail-line" aria-hidden="true"></div>
+      <div class="trail-stage"><span>2026</span><p>${escapeHtml(item.y2026)}</p><a href="${escapeHtml(item.src2026)}" target="_blank" rel="noopener">2026 ${srcLabel} →</a></div>
+    </article>`).join("");
 }
 
 function renderCompare(){
@@ -254,12 +293,20 @@ function renderVotes(){
     voteEls.results.innerHTML=`<div class="voteEmpty"><strong>${escapeHtml(t("noMatching"))}</strong><br>${escapeHtml(t("clearFilters"))}</div>`;return;
   }
   voteEls.results.innerHTML=votes.map(v=>{
-    const source=v.official_source?`<a class="voteSource" href="${escapeHtml(v.official_source)}" target="_blank" rel="noopener">${escapeHtml(t("officialRecord"))}</a>`:"";
+    const official=v.official_source?`<a class="voteSource" href="${escapeHtml(v.official_source)}" target="_blank" rel="noopener">${escapeHtml(t("officialRecord"))}</a>`:"";
+    const history=v.bill_history_source?`<a class="voteSource secondary" href="${escapeHtml(v.bill_history_source)}" target="_blank" rel="noopener">${escapeHtml(t("billHistory"))}</a>`:"";
     const cat=translatedCategory(v.category||"");
+    const typeKey=v.record_type==="committee"?"committeeVote":v.record_type==="floor"?"floorVote":"otherVote";
+    const desc=currentLang==="es"?(v.description_es||v.description):(v.description||v.action||t("recordedVote"));
+    const action=currentLang==="es"?(v.action_es||v.action):(v.action||"");
     return `<article class="voteCard">
       <div><div class="voteBill">${escapeHtml(v.bill||t("record"))}</div><div class="voteMeta">${escapeHtml(v.session||"")} ${v.date?"· "+escapeHtml(v.date):""}</div></div>
-      <div><h3>${escapeHtml(v.description||v.action||t("recordedVote"))}</h3>${v.action?`<p><strong>${escapeHtml(t("action"))}</strong> ${escapeHtml(v.action)}</p>`:""}
-      <div class="voteTags">${cat?`<span class="voteTag">${escapeHtml(cat)}</span>`:""}${v.result?`<span class="voteTag">${escapeHtml(t("result"))}: ${escapeHtml(String(v.result).toUpperCase())}</span>`:""}${v.key_vote===true?`<span class="voteTag">${escapeHtml(t("keyVote"))}</span>`:""}</div>${source}</div>
+      <div>
+        <div class="record-badges"><span class="record-badge type">${escapeHtml(t(typeKey))}</span>${v.verified===true?`<span class="record-badge verified">${escapeHtml(t("verifiedBadge"))}</span>`:""}</div>
+        <h3>${escapeHtml(desc)}</h3>${action?`<p><strong>${escapeHtml(t("action"))}</strong> ${escapeHtml(action)}</p>`:""}
+        <div class="voteTags">${cat?`<span class="voteTag">${escapeHtml(cat)}</span>`:""}${v.result?`<span class="voteTag">${escapeHtml(t("result"))}: ${escapeHtml(String(v.result).toUpperCase())}</span>`:""}${v.key_vote===true?`<span class="voteTag">${escapeHtml(t("keyVote"))}</span>`:""}</div>
+        <div class="vote-source-row">${official}${history}</div>
+      </div>
       <div class="voteChoice ${escapeHtml(v.talarico_vote||"unknown")}">${escapeHtml(prettyVote(v.talarico_vote))}</div>
     </article>`;
   }).join("");
@@ -278,8 +325,60 @@ async function loadVotes(){
   }
 }
 
+
+let researchData={scorecard_inventory:[],verified_crosschecks:[]};
+
+const scorecardTopicES={
+  "Economy / business":"Economía / negocios",
+  "Environment":"Medio ambiente",
+  "Taxes / spending / property":"Impuestos / gasto / propiedad",
+  "Reproductive policy":"Política reproductiva",
+  "Social issues":"Temas sociales",
+  "Conservative / limited government":"Conservador / gobierno limitado",
+  "General / ideological":"General / ideológico"
+};
+
+function renderScorecards(){
+  const holder=document.getElementById("scorecard-groups");
+  if(!holder)return;
+  const items=researchData.scorecard_inventory||[];
+  const years=[...new Set(items.map(x=>x.year))].sort((a,b)=>b-a);
+  const total=document.getElementById("scorecard-total"), yearCount=document.getElementById("scorecard-years"), cross=document.getElementById("crosschecks-total");
+  if(total)total.textContent=items.length.toLocaleString();
+  if(yearCount)yearCount.textContent=years.length.toLocaleString();
+  if(cross)cross.textContent=(researchData.verified_crosschecks||[]).length.toLocaleString();
+
+  holder.innerHTML=years.map(year=>{
+    const rows=items.filter(x=>x.year===year);
+    return `<section class="scorecardYear" aria-labelledby="scorecard-year-${year}">
+      <div class="scorecardYearHead"><h3 id="scorecard-year-${year}">${year}</h3><span>${rows.length} ${escapeHtml(t("scorecardsFound"))}</span></div>
+      <div class="scorecardList">${rows.map(x=>`
+        <article class="scorecardItem">
+          <strong>${escapeHtml(x.organization)}</strong>
+          <small>${escapeHtml(currentLang==="es"?(scorecardTopicES[x.topic]||x.topic):x.topic)}</small>
+          <a href="${escapeHtml(x.url)}" target="_blank" rel="noopener">${escapeHtml(t("openScorecard"))}</a>
+        </article>`).join("")}
+      </div>
+    </section>`;
+  }).join("");
+}
+
+async function loadResearch(){
+  try{
+    const res=await fetch("data/talarico-research.json",{cache:"no-store"});
+    if(!res.ok)throw new Error(`HTTP ${res.status}`);
+    researchData=await res.json();
+    renderScorecards();
+  }catch(err){
+    const holder=document.getElementById("scorecard-groups");
+    if(holder)holder.innerHTML=`<div class="voteEmpty"><strong>${escapeHtml(t("researchLoadError"))}</strong><br>${escapeHtml(err.message)}</div>`;
+    console.error("Research data load failed:",err);
+  }
+}
+
 document.querySelectorAll(".lang-btn").forEach(btn=>btn.addEventListener("click",()=>{
-  currentLang=btn.dataset.lang;localStorage.setItem("talarico-lang",currentLang);translateStatic();fillFilters();renderVotes();
+  currentLang=btn.dataset.lang;localStorage.setItem("talarico-lang",currentLang);translateStatic();fillFilters();renderVotes();renderScorecards();
 }));
 translateStatic();
 loadVotes();
+loadResearch();

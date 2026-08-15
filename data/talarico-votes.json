@@ -7,15 +7,16 @@
     "source_domain": "capitol.texas.gov / journals.house.texas.gov",
     "purpose": "Machine-readable verified voting records for the Talarico Then & Now archival website.",
     "last_updated": "2026-08-15",
-    "status": "verified starter dataset",
-    "record_count": 32,
-    "scope_note": "This file currently contains a verified subset of committee and floor records. It is not labeled as a complete career roll-call database.",
+    "status": "verified starter dataset with record-type labeling",
+    "record_count": 35,
+    "scope_note": "Verified starter dataset. It now includes official records located through primary-source research and secondary scorecard leads; it is not yet a complete career roll-call database.",
     "notes": [
       "Committee votes and final House votes are identified separately.",
       "A vote is never inferred from party, sponsorship, attendance, or a voice vote.",
       "Absence entries come directly from official committee minutes.",
       "Key-vote labeling highlights politically significant measures or final floor passage, not an editorial judgment on the merits."
-    ]
+    ],
+    "methodology_url": "#methodology"
   },
   "sessions": [
     {
@@ -115,7 +116,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre HB 2.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB2-committee-2025-04-03",
@@ -139,7 +143,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": true,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 2.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB6-committee-2025-04-03",
@@ -163,7 +170,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre HB 6.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB27-committee-2025-04-03",
@@ -187,7 +197,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre HB 27.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB100-committee-2025-04-03",
@@ -211,7 +224,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre HB 100.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB117-committee-2025-04-03",
@@ -235,7 +251,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre HB 117.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB204-committee-2025-05-21",
@@ -259,7 +278,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 204.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB735-committee-2025-05-21",
@@ -283,7 +305,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 735.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB747-committee-2025-05-21",
@@ -307,7 +332,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 747.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB784-committee-2025-05-21",
@@ -331,7 +359,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 784.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB875-committee-2025-05-21",
@@ -355,7 +386,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 875.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB1207-committee-2025-05-21",
@@ -379,7 +413,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 1207.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB1396-committee-2025-05-21",
@@ -403,7 +440,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 1396.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB1447-committee-2025-05-21",
@@ -427,7 +467,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 1447.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB1962-committee-2025-05-21",
@@ -451,7 +494,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 1962.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB2392-committee-2025-05-21",
@@ -475,7 +521,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 2392.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-SB2540-committee-2025-05-21",
@@ -499,7 +548,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 2540.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB7-committee-2025-05-01",
@@ -523,7 +575,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Absence is taken from the official committee minutes; no vote is inferred."
+      "notes": "Absence is taken from the official committee minutes; no vote is inferred.",
+      "record_type": "committee",
+      "description_es": "Talarico figura como ausente en la votación registrada del comité sobre HB 7.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB497-committee-2025-05-01",
@@ -547,7 +602,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Absence is taken from the official committee minutes; no vote is inferred."
+      "notes": "Absence is taken from the official committee minutes; no vote is inferred.",
+      "record_type": "committee",
+      "description_es": "Talarico figura como ausente en la votación registrada del comité sobre HB 497.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB1249-committee-2025-05-01",
@@ -571,7 +629,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Absence is taken from the official committee minutes; no vote is inferred."
+      "notes": "Absence is taken from the official committee minutes; no vote is inferred.",
+      "record_type": "committee",
+      "description_es": "Talarico figura como ausente en la votación registrada del comité sobre HB 1249.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB1573-committee-2025-05-01",
@@ -595,7 +656,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Absence is taken from the official committee minutes; no vote is inferred."
+      "notes": "Absence is taken from the official committee minutes; no vote is inferred.",
+      "record_type": "committee",
+      "description_es": "Talarico figura como ausente en la votación registrada del comité sobre HB 1573.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB1876-committee-2025-05-01",
@@ -619,7 +683,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Absence is taken from the official committee minutes; no vote is inferred."
+      "notes": "Absence is taken from the official committee minutes; no vote is inferred.",
+      "record_type": "committee",
+      "description_es": "Talarico figura como ausente en la votación registrada del comité sobre HB 1876.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB2757-committee-2025-05-01",
@@ -643,7 +710,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Absence is taken from the official committee minutes; no vote is inferred."
+      "notes": "Absence is taken from the official committee minutes; no vote is inferred.",
+      "record_type": "committee",
+      "description_es": "Talarico figura como ausente en la votación registrada del comité sobre HB 2757.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "89R-HB3369-committee-2025-05-01",
@@ -667,7 +737,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Absence is taken from the official committee minutes; no vote is inferred."
+      "notes": "Absence is taken from the official committee minutes; no vote is inferred.",
+      "record_type": "committee",
+      "description_es": "Talarico figura como ausente en la votación registrada del comité sobre HB 3369.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "88R-HB621-committee-2023-03-14",
@@ -691,7 +764,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre HB 621.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "88R-SB2069-committee-2023-05-02",
@@ -715,7 +791,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 2069.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "88R-SB2124-committee-2023-05-02",
@@ -739,7 +818,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": false,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 2124.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "88R-SB763-committee-2023-05-02",
@@ -763,7 +845,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": true,
-      "notes": "Committee vote, not final House passage."
+      "notes": "Committee vote, not final House passage.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 763.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "88R-SB14-calendar-2023-04-28",
@@ -787,7 +872,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": true,
-      "notes": "Calendar-placement vote only."
+      "notes": "Calendar-placement vote only.",
+      "record_type": "committee",
+      "description_es": "Votación registrada del comité sobre SB 14.",
+      "action_es": "Votación del comité de la Cámara; no es la aprobación final del pleno."
     },
     {
       "id": "88R-SB763-floor-2023-05-09",
@@ -811,7 +899,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": true,
-      "notes": "Certified House Journal, Record 1383."
+      "notes": "Certified House Journal, Record 1383.",
+      "record_type": "floor",
+      "description_es": "SB 763, que permitía a escuelas públicas emplear o aceptar capellanes voluntarios, fue aprobado por la Cámara 89-58-1. Talarico aparece entre los votos en contra.",
+      "action_es": "Votación del pleno de la Cámara."
     },
     {
       "id": "89R-SB2-floor-2025-04-17",
@@ -835,7 +926,10 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": true,
-      "notes": "Certified House Journal, Record 300."
+      "notes": "Certified House Journal, Record 300.",
+      "record_type": "floor",
+      "description_es": "SB 2 estableció un programa de cuentas de ahorro para la educación. Fue aprobado por la Cámara 86-61. Talarico aparece entre los votos en contra.",
+      "action_es": "Votación del pleno de la Cámara."
     },
     {
       "id": "89R-HB222-floor-2025-04-17",
@@ -859,7 +953,91 @@
       "source_label": "Texas Legislature Online / Texas House Journal",
       "verified": true,
       "key_vote": true,
-      "notes": "Certified House Journal, Record 306."
+      "notes": "Certified House Journal, Record 306.",
+      "record_type": "floor",
+      "description_es": "HB 222, relacionado con usos permitidos de la asignación de seguridad escolar, fue aprobado 91-55-1. Talarico aparece entre los votos a favor.",
+      "action_es": "Votación del pleno de la Cámara."
+    },
+    {
+      "id": "86R-HB1-amdt72-floor-2019-03-27",
+      "session": "86R",
+      "bill": "HB 1 Amendment 72",
+      "bill_type": "HB",
+      "bill_number": 1,
+      "date": "2019-03-27",
+      "chamber": "House",
+      "record_type": "floor",
+      "action": "House floor vote on Amendment No. 72 to CSHB 1",
+      "action_es": "Votación del pleno sobre la Enmienda Núm. 72 a CSHB 1",
+      "description": "Amendment No. 72 directed the Health and Human Services Commission to seek a Medicaid waiver expanding eligibility to the maximum extent permitted by federal law. The amendment failed 66-80, with 2 present not voting. Talarico is listed among the Yeas.",
+      "description_es": "La Enmienda Núm. 72 ordenaba a la Comisión de Salud y Servicios Humanos solicitar una exención de Medicaid para ampliar la elegibilidad al máximo permitido por la ley federal. La enmienda fracasó 66-80, con 2 presentes sin votar. Talarico aparece entre los votos a favor.",
+      "category": "Health Care",
+      "talarico_vote": "yes",
+      "result": "failed",
+      "yeas": 66,
+      "nays": 80,
+      "present": 2,
+      "absent": null,
+      "official_source": "https://journals.house.texas.gov/hjrnl/86r/pdf/86RDAY35FINAL.PDF",
+      "bill_history_source": "https://capitol.texas.gov/billlookup/History.aspx?Bill=HB1&LegSess=86R",
+      "source_label": "Certified Texas House Journal",
+      "verified": true,
+      "key_vote": true,
+      "notes": "Official House Journal Record 107. Identified as a research lead through a 2019 Club for Growth Foundation scorecard, then independently verified."
+    },
+    {
+      "id": "89R-HB14-floor-2025-04-23",
+      "session": "89R",
+      "bill": "HB 14",
+      "bill_type": "HB",
+      "bill_number": 14,
+      "date": "2025-04-23",
+      "chamber": "House",
+      "record_type": "floor",
+      "action": "Third reading and final House passage",
+      "action_es": "Tercera lectura y aprobación final en la Cámara",
+      "description": "HB 14 concerned state support for development of the nuclear energy industry. It passed the House 134-9, with 1 present not voting. Talarico is listed among the Yeas.",
+      "description_es": "HB 14 trató sobre apoyo estatal al desarrollo de la industria de energía nuclear. Fue aprobado por la Cámara 134-9, con 1 presente sin votar. Talarico aparece entre los votos a favor.",
+      "category": "Energy & Environment",
+      "talarico_vote": "yes",
+      "result": "passed",
+      "yeas": 134,
+      "nays": 9,
+      "present": 1,
+      "absent": 6,
+      "official_source": "https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY48FINAL.PDF",
+      "bill_history_source": "https://capitol.texas.gov/billlookup/History.aspx?Bill=HB14&LegSess=89R",
+      "source_label": "Certified Texas House Journal",
+      "verified": true,
+      "key_vote": true,
+      "notes": "Official House Journal Record 371. Identified as a research lead through the 2025 Sierra Club Texas scorecard, then independently verified."
+    },
+    {
+      "id": "89R-HB5246-floor-2025-05-02",
+      "session": "89R",
+      "bill": "HB 5246",
+      "bill_type": "HB",
+      "bill_number": 5246,
+      "date": "2025-05-02",
+      "chamber": "House",
+      "record_type": "floor",
+      "action": "Third reading and final House passage",
+      "action_es": "Tercera lectura y aprobación final en la Cámara",
+      "description": "HB 5246 concerned the Texas Space Commission and related aerospace and space-exploration entities. It passed the House 123-8, with 1 present not voting. Talarico is listed among the Yeas.",
+      "description_es": "HB 5246 trató sobre la Comisión Espacial de Texas y entidades relacionadas con actividades aeroespaciales y de exploración espacial. Fue aprobado por la Cámara 123-8, con 1 presente sin votar. Talarico aparece entre los votos a favor.",
+      "category": "Other",
+      "talarico_vote": "yes",
+      "result": "passed",
+      "yeas": 123,
+      "nays": 8,
+      "present": 1,
+      "absent": 17,
+      "official_source": "https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY55FINAL.PDF",
+      "bill_history_source": "https://capitol.texas.gov/billlookup/History.aspx?Bill=HB5246&LegSess=89R",
+      "source_label": "Certified Texas House Journal",
+      "verified": true,
+      "key_vote": true,
+      "notes": "Official House Journal Record 1317. The 2025 Sierra Club scorecard marks Talarico N on this item, but the certified House Journal lists him among the Yeas. Sierra states its scorecard may adjust votes based on stated intent; this database follows the certified journal."
     }
   ]
 }
