@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "candidate": "James Talarico",
+    "office": "Texas House of Representatives",
+    "member_code": "A3685",
+    "source_name": "Texas Legislature Online",
+    "source_domain": "capitol.texas.gov",
+    "purpose": "Machine-readable voting record data for the Talarico Then & Now archival website.",
+    "last_updated": "2026-08-15",
+    "status": "schema-ready",
+    "notes": [
+      "Only add a member vote when an official record identifies the member's individual vote.",
+      "Do not infer a vote from party, sponsorship, coauthorship, attendance, or a non-record/voice vote.",
+      "Use 'no_individual_record' when the official source states that a measure passed by voice, division, or other non-record vote.",
+      "Keep authored/sponsored legislation in a separate dataset from roll-call votes."
+    ]
+  },
+  "sessions": [
+    {
+      "code": "86R",
+      "label": "86th Legislature - Regular Session",
+      "year": 2019
+    },
+    {
+      "code": "861",
+      "label": "86th Legislature - First Called Session",
+      "year": 2019
+    },
+    {
+      "code": "87R",
+      "label": "87th Legislature - Regular Session",
+      "year": 2021
+    },
+    {
+      "code": "871",
+      "label": "87th Legislature - First Called Session",
+      "year": 2021
+    },
+    {
+      "code": "872",
+      "label": "87th Legislature - Second Called Session",
+      "year": 2021
+    },
+    {
+      "code": "873",
+      "label": "87th Legislature - Third Called Session",
+      "year": 2021
+    },
+    {
+      "code": "88R",
+      "label": "88th Legislature - Regular Session",
+      "year": 2023
+    },
+    {
+      "code": "884",
+      "label": "88th Legislature - Fourth Called Session",
+      "year": 2023
+    },
+    {
+      "code": "89R",
+      "label": "89th Legislature - Regular Session",
+      "year": 2025
+    },
+    {
+      "code": "891",
+      "label": "89th Legislature - First Called Session",
+      "year": 2025
+    },
+    {
+      "code": "892",
+      "label": "89th Legislature - Second Called Session",
+      "year": 2025
+    }
+  ],
+  "categories": [
+    "Education",
+    "Taxes & Spending",
+    "Immigration & Border",
+    "Elections & Voting",
+    "Guns",
+    "Abortion",
+    "LGBTQ & Gender Policy",
+    "Criminal Justice",
+    "Energy & Environment",
+    "Health Care",
+    "Labor & Employment",
+    "Housing",
+    "Transportation",
+    "Government & Ethics",
+    "Civil Rights",
+    "Other"
+  ],
+  "vote_values": [
+    "yes",
+    "no",
+    "present_not_voting",
+    "absent",
+    "paired",
+    "excused",
+    "no_individual_record",
+    "unknown"
+  ],
+  "record_schema": {
+    "id": "Unique stable ID, e.g. 89R-HB2-house-2025-05-24-3rd-reading",
+    "session": "89R",
+    "bill": "HB 2",
+    "bill_type": "HB",
+    "bill_number": 2,
+    "date": "YYYY-MM-DD",
+    "chamber": "House",
+    "action": "Third reading / amendment / concurrence / final passage / etc.",
+    "description": "Neutral plain-English description of what was being voted on.",
+    "category": "Education",
+    "talarico_vote": "yes",
+    "result": "passed",
+    "yeas": null,
+    "nays": null,
+    "present": null,
+    "absent": null,
+    "official_source": "https://capitol.texas.gov/...",
+    "bill_history_source": "https://capitol.texas.gov/...",
+    "source_label": "Texas Legislature Online",
+    "verified": true,
+    "key_vote": false,
+    "notes": ""
+  },
+  "votes": []
+}
